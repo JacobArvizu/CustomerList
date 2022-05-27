@@ -10,7 +10,7 @@ import kotlinx.coroutines.launch
 
 class MainViewModel : ViewModel() {
 
-    //
+    // List holding customers
     val customerList: MutableList<Customer> = mutableListOf()
 
     // Mock Data generator
