@@ -11,4 +11,4 @@ Sample Kotlin app that displays a list of mock customers.
 
 ## Demo
 
-![Demo](https://thumbs.gfycat.com/ImportantBlueCornsnake-size_restricted.gif)
+![Demo](https://thumbs.gfycat.com/SkeletalRareAfricanbushviper-size_restricted.gif)
