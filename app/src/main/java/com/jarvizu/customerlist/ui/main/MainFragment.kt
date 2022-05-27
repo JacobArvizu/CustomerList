@@ -25,6 +25,7 @@ class MainFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+        Toast.makeText(requireActivity(), "Loading customer data...", Toast.LENGTH_SHORT).show()
         _binding = FragmentMainBinding.inflate(inflater, container, false)
         Log.d(this.tag, "Fragment Created")
         return binding.root
@@ -32,7 +33,6 @@ class MainFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        Toast.makeText(requireActivity(), "Loading customer data...", Toast.LENGTH_SHORT).show()
         layoutManager = LinearLayoutManager(requireActivity())
         binding.recyclerView.layoutManager = layoutManager
         adapter = RecyclerAdapter(viewModel.customerList)
