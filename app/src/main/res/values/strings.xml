@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CustomerList</string>
+    <string name="txtFirstName">First Name</string>
+    <string name="txtLastName">Last Name</string>
+    <string name="txtPhone">Phone Number</string>
+    <string name="txtAddress">Address</string>
+    <string name="txtCity">City</string>
+    <string name="txtState">State</string>
+    <string name="lblFirstName">First Name:</string>
+    <string name="lblLastName">Last Name:</string>
+    <string name="lblPhoneNumber">Phone Number:</string>
+    <string name="lblAddress">Address:</string>
+    <string name="lblCity">City:</string>
+    <string name="lblState">State:</string>
+</resources>

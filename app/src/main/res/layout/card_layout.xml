@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp"
+    app:contentPadding="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/lblFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="@string/lblFirstName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txtFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/txtFirstName"
+            app:layout_constraintStart_toEndOf="@id/lblFirstName"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/lblLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="@string/lblFirstName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lblFirstName" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txtLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/txtLastName"
+            app:layout_constraintBottom_toBottomOf="@id/lblLastName"
+            app:layout_constraintStart_toEndOf="@id/lblLastName" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/lblPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="@string/lblPhoneNumber"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lblLastName" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txtPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/txtPhone"
+            app:layout_constraintBottom_toBottomOf="@id/lblPhoneNumber"
+            app:layout_constraintStart_toEndOf="@id/lblPhoneNumber" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/lblAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="@string/lblAddress"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lblPhoneNumber" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txtAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/txtAddress"
+            app:layout_constraintBottom_toBottomOf="@id/lblAddress"
+            app:layout_constraintStart_toEndOf="@id/lblAddress" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/lblCity"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="@string/lblCity"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lblAddress" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txtCity"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/txtCity"
+            app:layout_constraintBottom_toBottomOf="@id/lblCity"
+            app:layout_constraintStart_toEndOf="@id/lblCity" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/lblState"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="@string/lblState"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lblCity" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txtState"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/txtState"
+            app:layout_constraintBottom_toBottomOf="@id/lblState"
+            app:layout_constraintStart_toEndOf="@id/lblState" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
